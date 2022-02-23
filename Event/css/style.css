@@ -1,0 +1,29 @@
+a {
+    color: black;
+    text-decoration: none;
+    font-size: large;
+}
+
+a:hover{
+    font-size: 50px;
+    color: cadetblue;
+    text-decoration: underline;
+}
+
+div#survol{
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+    border:3px solid darkblue;
+    background-color: pink;
+}
+div#survol:hover{
+    background-image: url(../img/wallpaper.jpg);
+    background-size: cover;
+    width: 800px;
+}
+div.survole{
+    background-image: url(../img/wallpaper.jpg);
+    background-size: cover;
+    width: 800px;
+}
