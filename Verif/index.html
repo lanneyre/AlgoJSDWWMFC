@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>verif</title>
+    <script src="js/main.js"></script>
+    <style>
+        .danger{
+            border: 2px solid red;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+		Votre nom * : <input type="text" name="nom" placeholder="Votre nom" value="je te" required="required" id="nom"><br>
+		Votre prénom * : <input type="text" name="prenom" placeholder="Votre prénom" value="zutte" required="required" id="prenom"><hr>
+
+		Votre email * : <input type="email" name="email" placeholder="ali@vitaminec.com" required="required" id="email"><br>
+		Votre date de naissance * : <input type="date" name="dob" max="2004-02-25" required="required" id="dob" value=""><br>
+		Votre Fond préférée : <input type="color" name="colors" value="#4C4A5C" id="colors"><br>
+        Votre police préférée : <input type="color" name="colorspol" value="#4C4A5C" id="colorspol">
+		<hr>
+		<textarea cols="50" rows="8" required="required" id="com">parfaitement et dans le respect des gestes barrières</textarea><br>
+		<hr>
+		votre sexe <br>
+		Homme <input type="radio" name="sexe" value="H" required="required" id="sh">
+		Femme <input type="radio" name="sexe" value="F" required="required" id="sf">
+		Truc&nbsp; <input type="radio" name="sexe" value="T" required="required" id="st"><br>
+		<hr>
+		Reseaux sociaux : <br>
+		FB <input type="checkbox" name="Reseaux[]" value="FB"  id="rfb"><br>
+		twitter <input type="checkbox" name="Reseaux[]" value="twitter" id="rtw"><br>
+		linkedin <input type="checkbox" name="Reseaux[]" value="linkedin" id="rli"><hr>
+		<select name="trucs" multiple="multiple" id="trucs">
+			<option selected="selected" disabled="disabled"></option>
+			<option>truc</option><option>machin</option><option>chose</option><option>bidulle</option><option>chouette</option>
+		</select><hr>
+		<button id="btn"> dkfgjqlmglkdhj</button> 
+	</form>
+</body>
+</html>
